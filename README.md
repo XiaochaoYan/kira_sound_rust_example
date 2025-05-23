@@ -17,4 +17,4 @@
 ### Dependencies used while testing
 
 kira = 0.10.6 \
-glam = 0.30.3 features = ["mint"] \
+glam = 0.30.3 features = ["mint"] 
