@@ -1,0 +1,18 @@
+[package]
+name = "kira_rust_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+kira = "*"
+glam = { version = "*", features = ["mint"] }
+macroquad = { version = "*", default-features = false }
+
+[[bin]]
+name = "kira_example"
+path = "bin/kira_example.rs"
+
+[[bin]]
+name = "kira_spatial_sound"
+path = "bin/kira_spatial_sound.rs"
